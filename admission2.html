@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission - Amrita College Bengaluru</title>
+    <link rel="stylesheet" href="site-style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo2.png" alt="Amrita College Logo" class="logo" width="60" height="60">
+                <span class="nav-title">Amrita College</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="academics2.html" class="nav-link">Academics</a></li>
+                <li><a href="admission2.html" class="nav-link active">Admission</a></li>
+                <li><a href="gallery2.html" class="nav-link">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main-content">
+        <div class="hero-section">
+            <div class="container">
+                <h1 class="college-name">Admission</h1>
+                <p class="college-tagline">Join Amrita College Bengaluru</p>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="container">
+                <div class="about-section">
+                    <h2>How to Apply</h2>
+                    <p>Admissions are open for Science and Arts programs. Please contact the college office for details or fill out the application form below.</p>
+                    <form class="admission-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Course</label>
+                            <select id="course" name="course" required>
+                                <option value="">Select</option>
+                                <option value="cs">B.Sc. Computer Science</option>
+                                <option value="maths">B.Sc. Mathematics</option>
+                                <option value="english">B.A. English Literature</option>
+                                <option value="sociology">B.A. Sociology</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Amrita College Bengaluru. All rights reserved.</p>
+            <p>Contact: info@amritacollegebengaluru.edu.in | Phone: +91 80 1234 5678</p>
+        </div>
+    </footer>
+</body>
+</html>
